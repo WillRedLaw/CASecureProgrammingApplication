@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.casecureprogramming.WelcomeController">
+   <children>
+      <Label layoutX="253.0" layoutY="24.0" text="Student Database" />
+      <Label layoutX="100.0" layoutY="92.0" text="First Name: " />
+      <Label layoutX="100.0" layoutY="133.0" text="Last Name: " />
+      <Label layoutX="99.0" layoutY="170.0" text="Class:" />
+      <Label layoutX="101.0" layoutY="209.0" text="Year:" />
+      <TextField layoutX="188.0" layoutY="88.0" />
+      <TextField layoutX="188.0" layoutY="129.0" />
+      <TextField layoutX="188.0" layoutY="166.0" />
+      <TextField layoutX="188.0" layoutY="205.0" />
+      <Button fx:id="Exit" layoutX="524.0" layoutY="355.0" mnemonicParsing="false" onAction="#ExitButton" text="Exit" />
+      <Button layoutX="379.0" layoutY="151.0" mnemonicParsing="false" text="Enter New Student" />
+      <Button layoutX="379.0" layoutY="101.0" mnemonicParsing="false" text="Search Student" />
+      <Button layoutX="379.0" layoutY="202.0" mnemonicParsing="false" text="Delete Student" />
+   </children>
+</AnchorPane>

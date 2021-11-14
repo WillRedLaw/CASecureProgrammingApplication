@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.casecureprogramming.WelcomeController">
+   <children>
+      <Label layoutX="210.0" layoutY="34.0" text="Welcome to the student database" />
+      <Label layoutX="249.0" layoutY="81.0" text="Please Login below" />
+      <Label layoutX="127.0" layoutY="138.0" text="Username: " />
+      <Label layoutX="130.0" layoutY="193.0" text="Password:" />
+      <TextField fx:id="UserNameTextField" layoutX="210.0" layoutY="134.0" prefHeight="25.0" prefWidth="179.0" promptText="enter username" />
+      <PasswordField fx:id="PasswordField" layoutX="210.0" layoutY="189.0" prefHeight="25.0" prefWidth="179.0" promptText="enter password" />
+      <Button fx:id="LoginButton" layoutX="277.0" layoutY="330.0" mnemonicParsing="false" onAction="#LoginButton" text="Login" />
+      <Label fx:id="LoginText" layoutX="127.0" layoutY="317.0" prefHeight="25.0" prefWidth="35.0" />
+      <Label fx:id="usernameA" layoutX="130.0" layoutY="247.0" text="Username: " visible="false" />
+      <Label fx:id="passwordA" layoutX="130.0" layoutY="282.0" text="Password:" visible="false" />
+      <TextField fx:id="UserNameTFA" layoutX="214.0" layoutY="243.0" prefHeight="25.0" prefWidth="179.0" promptText="enter username" visible="false" />
+      <PasswordField fx:id="PasswordTFA" layoutX="214.0" layoutY="286.0" prefHeight="25.0" prefWidth="179.0" promptText="enter password" visible="false" />
+      <Button fx:id="AdminLogin" layoutX="400.0" layoutY="134.0" mnemonicParsing="false" onAction="#AdminLoginButton" text="Admin login" />
+   </children>
+</AnchorPane>

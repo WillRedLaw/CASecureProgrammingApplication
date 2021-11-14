@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane fx:id="SearchFoundT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.casecureprogramming.StudentViewerController">
+   <children>
+      <Label layoutX="256.0" layoutY="5.0" text="Student Database" />
+      <Label layoutX="99.0" layoutY="148.0" text="First Name: " />
+      <Label layoutX="99.0" layoutY="189.0" text="Last Name: " />
+      <Label layoutX="98.0" layoutY="226.0" text="Class:" />
+      <Label layoutX="100.0" layoutY="265.0" text="Year:" />
+      <TextField fx:id="FirstNameT" layoutX="187.0" layoutY="144.0" />
+      <TextField fx:id="LastNameT" layoutX="187.0" layoutY="185.0" />
+      <TextField fx:id="ClassT" layoutX="187.0" layoutY="222.0" />
+      <TextField fx:id="YearT" layoutX="187.0" layoutY="261.0" />
+      <Button fx:id="Exit" layoutX="524.0" layoutY="355.0" mnemonicParsing="false" onAction="#ExitButton" text="Exit" />
+      <Button fx:id="RegisterNewStudentB" layoutX="376.0" layoutY="154.0" mnemonicParsing="false" onAction="#RegisterNewStudent" text="Enter New Student" />
+      <Button fx:id="SearchB" layoutX="376.0" layoutY="45.0" mnemonicParsing="false" onAction="#SearchForStudent" text="Search Student" />
+      <Button fx:id="DeleteStudentB" layoutX="378.0" layoutY="245.0" mnemonicParsing="false" onAction="#DeleteStudent" text="Delete Student" visible="false" />
+      <Label fx:id="TextUpdater" layoutX="238.0" layoutY="337.0" />
+      <Label layoutX="56.0" layoutY="51.0" text="Student First Name:" />
+      <TextField fx:id="searchFNT" layoutX="187.0" layoutY="47.0" />
+      <Label layoutX="56.0" layoutY="81.0" text="Student Last Name: " />
+      <TextField fx:id="searchLNT" layoutX="188.0" layoutY="86.0" />
+      <Button fx:id="EditButton" layoutX="376.0" layoutY="198.0" mnemonicParsing="false" onAction="#UpdateStudent" text="Update Student" visible="false" />
+      <Label fx:id="LoginText" layoutX="376.0" layoutY="90.0" prefHeight="18.0" prefWidth="31.0" />
+   </children>
+</AnchorPane>
